@@ -14,18 +14,17 @@ namespace Search_Primes
             int n = 1000;
             int t;
 
-            Console.WriteLine(7%4);
-
-            for (int i = 1; i < n; i++)
+            for (int i = 2; i < n; i++)
             {
                 t = i;
-                temp = 1;
+                temp = 2;
 
-                for (int j = 1; j < i; j++)
+                for (int j = 2; j < i; j++)
                 {
-                    if (i%j != 0)
+                    if (i % j == 0)
+                        break;
+                    else
                         temp++;
-
 
                 }
 
