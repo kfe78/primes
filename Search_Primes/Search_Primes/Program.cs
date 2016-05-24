@@ -14,6 +14,8 @@ namespace Search_Primes
             int n = 1000;
             int t;
 
+            Console.WriteLine(7%4);
+
             for (int i = 1; i < n; i++)
             {
                 t = i;
@@ -23,6 +25,7 @@ namespace Search_Primes
                 {
                     if (i%j != 0)
                         temp++;
+
 
                 }
 
