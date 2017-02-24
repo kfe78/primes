@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Search_Primes
@@ -28,12 +29,15 @@ namespace Search_Primes
 
                 }
 
+                //Hmmmmmmmm. whut?
                 if (temp == i)
                     Console.WriteLine(t);
 
             }
-
-
+            Console.WriteLine("DONE!");
+        Thread.Sleep(2000);
         }
+        
     }
+    
 }
